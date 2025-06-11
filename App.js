@@ -7,7 +7,7 @@ function setup() {
     p5.disableFriendlyErrors = true;
     angleMode(RADIANS);
 
-    rectP = new Rocket(innerWidth / 2, innerHeight, 40, 60);
+    rectP = new Rocket(innerWidth / 2, innerHeight - 40, 40, 60);
 }
 
 function draw() {
